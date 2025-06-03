@@ -282,10 +282,11 @@ body {
   .six .hat {
     width: 50px;
     top: -20px;
+    left: -20px;
   }
 
   .wish-hbd {
-    font-size: 2em;
+    font-size: 1.9em;
   }
 
   .wish h5 {
