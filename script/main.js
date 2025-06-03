@@ -267,16 +267,16 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".eight svg",
-      1.5,
-      {
-        visibility: "visible",
-        opacity: 0,
-        scale: 80,
-        repeat: 3,
-        repeatDelay: 1.4
-      },
-      0.3
-    )
+      3.8, // Super slow animation duration (originally 1.5s)
+    {
+      visibility: "visible",
+      opacity: 0,
+      scale: 60, // Reduced from 80 for less intensity
+      repeat: 3,
+      repeatDelay: 3.2 // Long pause between repeats (originally 1.4s)
+     },
+      0.8 // Wider stagger gap (originally 0.3s)
+     )
     .to(".six", 0.5, {
       opacity: 0,
       y: 30,
